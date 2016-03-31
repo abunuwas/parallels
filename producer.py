@@ -6,8 +6,6 @@ import multiprocessing as mp
 import os
 import threading 
 
-
-
 def generate_random_int(ID):
 	return randint(1,1000)
 
@@ -22,10 +20,8 @@ def event_threading():
 	for i in range(0,10):
 		process = threading.Thread(target=events, args=(10,i))
 		jobs.append(process)
-
 	for j in jobs:
 		j.start()
-
 	for j in jobs:
 		j.join()
 
@@ -34,12 +30,11 @@ def event_processing():
 	for i in range(0,10):
 		process = mp.Process(target=events, args=(10,i))
 		jobs.append(process)
-
 	for j in jobs:
 		j.start()
-
 	for j in jobs:
 		j.join()
 
 if __name__ == '__main__':
-	event_threading()
+	pass
+	#Eevent_threading()
