@@ -50,7 +50,7 @@ def fill_ftp(camera_id):
 			check_camera_dir(camera_id)
 			copy_video(video, camera_id, serial_number=e)
 			e+=1
-			time.sleep(4)
+			time.sleep(7)
 
 
 if __name__ == '__main__':
