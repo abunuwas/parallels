@@ -1,3 +1,4 @@
+argh==0.26.1
 Flask==0.10.1
 gevent==1.1.1
 greenlet==0.4.9
@@ -7,6 +8,10 @@ Jinja2==2.8
 locustio==0.7.3
 MarkupSafe==0.23
 msgpack-python==0.4.7
+pathtools==0.1.2
+pyusb==1.0.0rc1
+PyYAML==3.11
 pyzmq==15.2.0
 requests==2.9.1
+watchdog==0.8.3
 Werkzeug==0.11.5
